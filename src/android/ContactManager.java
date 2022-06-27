@@ -262,7 +262,7 @@ public class ContactManager extends CordovaPlugin {
                 return;
             }
 
-            this.callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.ERROR, UNKNOWN_ERROR));
+            this.callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.ERROR, resultCode));
         }
     }
 
